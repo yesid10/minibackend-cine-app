@@ -1,0 +1,227 @@
+{
+    "ciudades":[
+        {
+            "id":1,
+            "name": "Cartagena",
+            "teatros":[
+                {
+                    "id":1,
+                    "name": "C.C. La Castellana",
+                    "salas":[
+                        {
+                            "id": 1,
+                            "numberRoom": 1,
+                            "idFuncion": 1
+                        },
+                        {
+                          "id": 2,
+                          "numberRoom": 2,
+                          "idFuncion": 2
+                        },
+                        {
+                          "id": 3,
+                          "numberRoom": 3,
+                          "idFuncion": 3
+                        },
+                        {
+                          "id": 4,
+                          "numberRoom": 4,
+                          "idFuncion": 4
+                        }
+                    ]
+                },
+                {
+                  "id": 2,
+                  "name": "C.C. Plaza Bocagrande",
+                  "salas": [
+                    {
+                      "id": 1,
+                      "numberRoom": 1,
+                      "idFuncion": 1
+                    },
+                    {
+                      "id": 2,
+                      "numberRoom": 2,
+                      "idFuncion": 2
+                    },
+                    {
+                      "id": 3,
+                      "numberRoom": 3,
+                      "idFuncion": 3
+                    },
+                    {
+                      "id": 4,
+                      "numberRoom": 4,
+                      "idFuncion": 4
+                    }
+                  ]
+                }
+            ]
+        },
+        {
+          "id": 2,
+          "name": "Medellín",
+          "teatros": [
+            {
+              "id": 1,
+              "name": "MallPlaza",
+              "salas": [
+                {
+                  "id": 1,
+                  "numberRoom": 1,
+                  "idFuncion": 1
+                },
+                {
+                  "id": 2,
+                  "numberRoom": 2,
+                  "idFuncion": 2
+                },
+                {
+                  "id": 3,
+                  "numberRoom": 3,
+                  "idFuncion": 3
+                },
+                {
+                  "id": 4,
+                  "numberRoom": 4,
+                  "idFuncion": 4
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "name": "C.C Viva",
+              "salas": [
+                {
+                  "id": 1,
+                  "numberRoom": 1,
+                  "idFuncion": 1
+                },
+                {
+                  "id": 2,
+                  "numberRoom": 2,
+                  "idFuncion": 2
+                },
+                {
+                  "id": 3,
+                  "numberRoom": 3,
+                  "idFuncion": 3
+                },
+                {
+                  "id": 4,
+                  "numberRoom": 4,
+                  "idFuncion": 4
+                }
+              ]
+            }
+          ]
+        }
+    ],
+    "funciones":[
+      {
+        "id": 1,
+        "idMovie": "713704",
+        "programación":[
+            {
+                "id": 1,
+                "date": [
+                    {
+                        "id": 1,
+                        "dia": "16 de mayo"
+                    },
+                    {
+                        "id": 2,
+                        "dia": "17 de mayo"
+                    },
+                    {
+                        "id": 3,
+                        "dia": "18 de mayo"
+                    }
+                ],
+                "horaPrimeraFuncion": 11,
+                "horaUltimaFuncion": 21,
+                "intervalos": 2
+            }
+        ]
+      },
+      {
+        "id": 2,
+        "idMovie": "502356",
+        "programación": [
+          {
+            "id": 1,
+            "date": [
+              {
+                "id": 1,
+                "dia": "16 de mayo"
+              },
+              {
+                "id": 2,
+                "dia": "17 de mayo"
+              },
+              {
+                "id": 3,
+                "dia": "18 de mayo"
+              }
+            ],
+            "horaPrimeraFuncion": 11,
+            "horaUltimaFuncion": 21,
+            "intervalos": 2
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "idMovie": "758323",
+        "programación": [
+          {
+            "id": 1,
+            "date": [
+              {
+                "id": 1,
+                "dia": "16 de mayo"
+              },
+              {
+                "id": 2,
+                "dia": "17 de mayo"
+              },
+              {
+                "id": 3,
+                "dia": "18 de mayo"
+              }
+            ],
+            "horaPrimeraFuncion": 11,
+            "horaUltimaFuncion": 21,
+            "intervalos": 2
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "idMovie": "447365",
+        "programación": [
+          {
+            "id": 1,
+            "date": [
+              {
+                "id": 1,
+                "dia": "16 de mayo"
+              },
+              {
+                "id": 2,
+                "dia": "17 de mayo"
+              },
+              {
+                "id": 3,
+                "dia": "18 de mayo"
+              }
+            ],
+            "horaPrimeraFuncion": 11,
+            "horaUltimaFuncion": 21,
+            "intervalos": 2
+          }
+        ]
+      }
+    ],
+    "tiquetesComprados":[]
+}
